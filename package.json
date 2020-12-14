@@ -1,0 +1,29 @@
+{
+  "name": "scp-test-package",
+  "version": "1.0.0",
+  "description": "A boilerplate for react libraries",
+  "main": "build/cjs/lib.js",
+  "module": "build/es/lib.js",
+  "scripts": {
+    "build": "d2-app-scripts build"
+  },
+  "keywords": [
+    "react",
+    "dhis2",
+    "dhis2-component-search"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@dhis2/cli-app-scripts": "^5.5.0",
+    "react": "^17.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.15.0",
+    "eslint-plugin-react": "^7.21.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/amcgee/scp-test-package.git"
+  }
+}
